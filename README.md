@@ -1,9 +1,25 @@
-📊 Employee Salary Prediction App
+💼 Employee Salary Prediction App
 
-This is a simple Machine Learning-powered web application built with Streamlit that predicts whether an individual's income is more or less than $50K per year based on various attributes.
+A web-based tool built using Streamlit to predict whether an employee earns more than $50K per year based on demographic data.
+
+
+
+🚀 Project Highlights
+
+🔍 Uses a trained ML model (model.pkl)
+
+📁 Accepts CSV file uploads
+
+⚙️ Handles categorical encoding
+
+📊 Displays predictions clearly
+
+🌐 Built with Streamlit — no web dev needed!
+
 
 
 🚀 Features
+
 -Upload your own CSV file with employee data
 
 -Automatically encodes categorical data
@@ -29,16 +45,16 @@ This is a simple Machine Learning-powered web application built with Streamlit t
 -Preprocessing includes encoding categorical variables
 
 
-📦 Dependencies
+🧪 Technologies Used
 
--Python 3.x
+Python – Core programming language.
 
--streamlit
+Streamlit – For creating the web interface.
 
--pandas
+Pandas – For data manipulation.
 
--joblib
+Scikit-learn – For machine learning model training and prediction.
 
--scikit-learn
+Joblib – For model serialization.
 
 
