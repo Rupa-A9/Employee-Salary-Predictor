@@ -17,7 +17,7 @@ if uploaded_file is not None:
 
     try:
         # Load the model
-        model = joblib.load("model.pkl")
+        model = joblib.load("model(1).pkl")
         st.success("✅ Model loaded successfully!")
 
         # Predict
